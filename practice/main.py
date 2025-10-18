@@ -6,3 +6,4 @@ elif(n2>n1):
     print("the larger umber is n2",n2)
 else:
     print("Both numbers are equal")
+    
