@@ -6,3 +6,5 @@ print("**")
 print("***")
 print("****")
 print("*")
+
+
