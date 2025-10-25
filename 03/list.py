@@ -39,3 +39,4 @@ l=[1,4,8,0,6,5,5,3,2,8]
 print(l)                                    
 print(l.count(8))
 print(l)
+
