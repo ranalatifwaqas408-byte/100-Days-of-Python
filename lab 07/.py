@@ -23,7 +23,7 @@ def lucky_number(limit):
             print(i)
 
 #program 4
-def bimary_decimal(binary_str):
+def binary_decimal(binary_str):
     dec=0
     power=0
     for digit in binary_str[::-1]:
