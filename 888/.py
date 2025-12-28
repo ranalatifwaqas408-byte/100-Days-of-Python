@@ -5,3 +5,30 @@ def factorial(n):
     return f
 
 print(factorial(6))
+n = int(input("Enter number: "))
+i = 1
+
+while i <= n:
+    print(i)
+    i += 1
+def prime(n):
+    if n <= 1:
+        return "Not Prime"
+
+    for i in range(2, n):
+        if n % i == 0:
+            return "Not Prime"
+    return "Prime"
+
+print(prime(7))
+
+
+n = int(input("Enter number: "))
+rev = 0
+
+while n > 0:
+    r = n % 10
+    rev = rev * 10 + r
+    n //= 10
+
+print("Reverse =", rev)
